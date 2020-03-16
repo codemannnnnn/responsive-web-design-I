@@ -274,9 +274,10 @@ width: 45%;
 
 	.container {
 		width: 500px;
-		padding: x;
-		
-		margin: 0 auto;
+		padding:0;
+		box-sizing: border-box;
+		margin:0 auto;
+	
 		
 	}
 
