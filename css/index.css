@@ -272,18 +272,115 @@ width: 45%;
 @media (max-width:500px){
 
 
-.menu{
+	.container {
+		width: 500px;
+		padding: x;
+		
+		margin: 0 auto;
+		
+	}
+
+	  .menu{
+		  align-content: center;
+	  }
+
+	  .menua{
+		  flex-direction:column;
+		  align-items: center;
+
+	  }
+
+	  .menua a{
+		  font-size:30px;
+		  padding:30px;
+		  border:1px solid black;
+		  width:100%;
+		  text-align:center;
+		  text-decoration: none;
+
+	  }
+
+.main1{
+	font-size:100px;
+	text-align: center;
+	padding-right:100px;
+}
+
+.main2{
+
+	text-align: center;
+	margin:auto;
+
+}
+
+
+.logo{
 	display:flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	justify-content: center;
+
+	
 	
 }
 
-.menua{
+
+
+
+
+.middle{
 	display:flex;
 	flex-direction: column;
-	align-items:center;
+	text-align:left;
+	width:400%;
+	margin:auto;
+	padding-left:30px;
+	font-size:30px;
+	padding-bottom:20px;
+
 }
+
+.features{
+	padding-bottom:40px;
+}
+.about{
+	padding-bottom:40px;
+}
+
+
+
+
+.bottom{
+	display:flex;
+	flex-direction: column;
+	text-align:left;
+	width:600%;
+	margin:auto;
+	padding-left:30px;
+	font-size:30px;
+	padding-bottom:20px;
+
+}
+
+.services{
+	padding-bottom:40px;
+}
+
+.product{
+	padding-bottom:40px;
+}
+
+
+
+.contact{
+	font-size:30px
+}
+.copywright{
+	display:flex;
+	justify-content: center;
+	font-size: 20px;
+	text-align: center;
+}
+
 
 
 
