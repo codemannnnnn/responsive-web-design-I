@@ -355,11 +355,10 @@ border-radius: 5px;
 @media (max-width:500px){
 
 
-
-	
 	.navh{
 		display:flex;
 		flex-direction: column-reverse;
+		line-height: 50px;
 		
 	}
 
@@ -367,19 +366,39 @@ border-radius: 5px;
 		display:flex;
 		flex-direction: column;
 		font-size:20px;
+		align-items: center;
 	}
 
+	.links a{
+		text-decoration: none;
 
+	}
+
+	.links a{
+		border:1px solid black;
+		width:500px;
+		text-align:center;
+	}
+
+	
 	
 	.middle{
 		display:flex;
 		flex-direction: column;
-		
-
+	
 	}
 
+	.features{
+		padding-bottom:5%;
+	}
 
+	.services{
+		padding-bottom:5%;
+	}
 
+	.product{
+		padding-bottom: 5%;
+	}
 
 	.bottom{
 		display:flex;
